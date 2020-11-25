@@ -171,7 +171,7 @@ def user_stats(df):
     print('The most recent birth year is',earliest_birth_year)
 
     most_common_birth_year = df['Birth Year'].value_counts().idxmax()
-    print('The most comon birth year is',most_common_birth_year)
+    print('The most common birth year is',most_common_birth_year)
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
@@ -183,7 +183,7 @@ def display_data(df):
     while view_data.lower() == 'yes':
         print(df.iloc[start_loc:start_loc+5])
         start_loc += 5
-        view_display = input('Do you wish to continue?:Enter yes or no.\n' ).lower()
+        view_display = input('Do you wish to see 5 more rows?:Enter yes or no.\n' ).lower()
         if view_display.lower() != 'yes':
             break
 
@@ -198,7 +198,7 @@ def main():
         user_stats(df)
         display_data(df)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\nWould you like to restart from the beginning? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
 
