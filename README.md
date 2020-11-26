@@ -30,36 +30,36 @@ Once the user has chosen city, month and day of the week the following data is c
 
 1. Statistics on the most frequent times of travel
 
-Calculating The Most Frequent Times of Travel...
+Calculating The Most Frequent Times of Travel []
 
-The most popular month is...
-The most popular day is...
-The most popular hour is...
+The most popular month is []
+The most popular day is []
+The most popular hour is []
 
-This took ... seconds.
+This took [] seconds.
 
-2. Calculating The Most Popular Stations and Trip...
+2. Calculating The Most Popular Stations and Trip []
 
-The most popular start station is...
-The most popular end station is...
-The most popular combination of start and end station is...
+The most popular start station is []
+The most popular end station is []
+The most popular combination of start and end station is []
 
-This took ... seconds.
+This took [] seconds.
 
-3. Calculating Trip Duration...
+3. Calculating Trip Duration []
 
-The total travel duration time is...
-The mean travel duration time is...
+The total travel duration time is []
+The mean travel duration time is []
 
-This took ... seconds.
+This took [] seconds.
 
-4. Calculating User Stats...
+4. Calculating User Stats []
 
-The earliest birth year is ...
-The most recent birth year is ...
-The most common birth year is ...
+The earliest birth year is []
+The most recent birth year is []
+The most common birth year is []
 
-This took ... seconds.
+This took [] seconds.
 
 After those, the user is presented with the following prompt:
 
@@ -68,7 +68,7 @@ If the answer is yes, then the user sees the first first roes of the dataset for
 the selected city, month and day of the week.
 
 Then, the user is asked the following:
-* Do you wish to continue?:Enter yes or no.
+* Do you wish to continue? Enter yes or no.
 
 If the answer is 'yes', the  next 5 rows are displayed. This will continue until the answer is 'no'. In that case, the user will see the following prompt:
 
