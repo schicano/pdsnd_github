@@ -63,18 +63,18 @@ This took [] seconds.
 
 After those, the user is presented with the following prompt:
 
-* Would you like to view 5 rows of individual trip data? Enter yes or no
-If the answer is yes, then the user sees the first first roes of the dataset for
+* Would you like to view 5 rows of individual trip data? Enter 'yes' or 'no'
+If the answer is 'yes', then the user sees the first first roes of the dataset for
 the selected city, month and day of the week.
 
 Then, the user is asked the following:
-* Do you wish to continue? Enter yes or no.
+* Do you wish to continue? Enter 'yes' or 'no'.
 
 If the answer is 'yes', the  next 5 rows are displayed. This will continue until the answer is 'no'. In that case, the user will see the following prompt:
 
-* Would you like to restart? Enter yes or no.
+* Would you like to restart? Enter 'yes' or 'no'.
 
-If the user answer yes, the process starts again, and the user can chose again city, month and day of the week. And the process continues.
+If the user answer 'yes', the process starts again, and the user can chose again city, month and day of the week. And the process continues.
 
 ### Credits
 Thanks to the mentors at Udacity for helping me with this project. Also stackoverflow and GeeksforGeeks for inspiration and examples.
